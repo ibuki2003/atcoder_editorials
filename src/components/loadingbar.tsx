@@ -51,7 +51,7 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
   return (
     <div
       style={{
-        width: `${progress}vw`,
+        width: `${progress}%`,
         height: props.height,
         backgroundColor: props.color,
         boxShadow: `0 0 5px 0 ${props.color}`,
