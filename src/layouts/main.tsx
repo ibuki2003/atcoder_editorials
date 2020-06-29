@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import Container from "react-bootstrap/Container";
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const MainLayout: React.FunctionComponent<Props> = (props) => {
@@ -35,7 +35,7 @@ const MainLayout: React.FunctionComponent<Props> = (props) => {
 };
 
 MainLayout.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
 };
 
 export default MainLayout;
