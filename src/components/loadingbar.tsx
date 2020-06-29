@@ -57,7 +57,6 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
         width: `${progress}%`,
         height: props.height,
         backgroundColor: props.color,
-        boxShadow: `0 0 5px 0 ${props.color}`,
       }}
       className={classnames(css.loadingbar, { [css.full]: full })}
     ></div>

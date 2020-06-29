@@ -1,11 +1,12 @@
 .loadingbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99999;
   margin: 0;
   opacity: 1;
   transition: all 0.3s ease;
+  box-shadow: 0 0 5px 0 #333;
   &.full {
     opacity: 0;
     transition: opacity 0.1s ease-out, width 0s;
