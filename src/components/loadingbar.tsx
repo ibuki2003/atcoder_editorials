@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import Router from "next/router";
+import classnames from "classnames";
 
 function randomInt(low: number, high: number) {
   return Math.floor(Math.random() * (high - low) + low);
@@ -56,7 +57,7 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
         backgroundColor: props.color,
         boxShadow: `0 0 5px 0 ${props.color}`,
       }}
-      className={"loading-bar" + (full ? " full" : "")}
+      className={classnames("loading-bar", { full: full })}
     ></div>
   );
 };
