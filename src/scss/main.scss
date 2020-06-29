@@ -1,15 +1,1 @@
 @import "~bootstrap/scss/bootstrap";
-
-.loading-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99999;
-  margin: 0;
-  opacity: 1;
-  transition: all 0.3s ease;
-  &.full {
-    opacity: 0;
-    transition: opacity 0.1s ease-out, width 0s;
-  }
-}
