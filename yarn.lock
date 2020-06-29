@@ -47,6 +47,13 @@
   dependencies:
     cross-fetch "3.0.5"
 
+"@aspida/axios@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@aspida/axios/-/axios-0.9.4.tgz#9a51a2c6ced10d3d8f00d8e33b02ed01534e6e83"
+  integrity sha512-lK9DHj+wvuv2y7JWzHAiyWdOLPrWKf4EjmeFmVhc7SpmwhNJ81XeZMLzl+wgjMPCP2UrT9cSxgTyjgp7MOtdGQ==
+  dependencies:
+    aspida "^0.19.4"
+
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1489,6 +1496,14 @@ asn1.js@^4.0.0:
     bn.js "^4.0.0"
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
+
+aspida@^0.19.4:
+  version "0.19.4"
+  resolved "https://registry.yarnpkg.com/aspida/-/aspida-0.19.4.tgz#d4547021d289481121f4fe2584f8cf9af3aeba93"
+  integrity sha512-L6SGCk0YYGxPLRCBlFiJIUVOqoUgwVGLxvMqpj7V9w5YW4M0xHXCkcHS6QR0l2RZLUavU4rHXKBIs7DVJAFEGg==
+  dependencies:
+    chokidar "^3.4.0"
+    minimist "^1.2.5"
 
 assert@1.4.1:
   version "1.4.1"

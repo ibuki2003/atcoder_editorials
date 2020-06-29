@@ -9,7 +9,9 @@
     "lint": "eslint src"
   },
   "dependencies": {
+    "@aspida/axios": "^0.9.4",
     "@types/classnames": "^2.2.10",
+    "aspida": "^0.19.4",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
