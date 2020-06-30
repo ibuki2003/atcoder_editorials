@@ -32,7 +32,7 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
     }
 
     function end_interval() {
-      clearInterval(interval_id.current);
+      if (interval_id.current !== null) clearInterval(interval_id.current);
       interval_id.current = null;
       setProgress(100);
       setTimeout(() => setFull(true), 200);
