@@ -27,7 +27,6 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
         setProgress(0);
         setTimeout(() => setFull(false), 200);
 
-        console.log("Hello");
         interval_id.current = setInterval(increment, 1000, 90);
       }
     }
@@ -39,12 +38,10 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
       setTimeout(() => setFull(true), 200);
     }
 
-    console.log("Foo!");
     Router.events.on("routeChangeStart", start_interval);
     Router.events.on("routeChangeComplete", end_interval);
     Router.events.on("routeChangeError", end_interval);
     return () => {
-      console.log("Bye");
       Router.events.off("routeChangeStart", start_interval);
       Router.events.off("routeChangeComplete", end_interval);
       Router.events.off("routeChangeError", end_interval);
