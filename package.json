@@ -17,6 +17,7 @@
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "isomorphic-unfetch": "^3.0.0",
+    "knex": "^0.21.1",
     "next": "9.4.4",
     "oauth-1.0a": "^2.2.6",
     "react": "16.13.1",
