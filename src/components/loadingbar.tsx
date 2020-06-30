@@ -61,8 +61,8 @@ const LoadingBar: React.FunctionComponent<Props> = (props): JSX.Element => {
 };
 
 LoadingBar.propTypes = {
-  height: PropTypes.number,
-  color: PropTypes.string,
+  height: PropTypes.number.isRequired,
+  color: PropTypes.string.isRequired,
 };
 
 export default LoadingBar;
