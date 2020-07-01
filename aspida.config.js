@@ -1,6 +1,6 @@
 module.exports = [
   {
-    input: "src/apis",
+    input: "src/pages/api/apis",
     baseURL: "/api",
   },
 ];
