@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src",
-    "api:build": "aspida --build"
+    "api:build": "aspida --build",
+    "migrate": "TS_NODE_PROJECT=tsconfig.script.json knex migrate:latest",
+    "migrate:rollback": "TS_NODE_PROJECT=tsconfig.script.json knex migrate:rollback"
   },
   "dependencies": {
     "@aspida/axios": "^0.9.4",
