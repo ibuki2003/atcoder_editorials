@@ -28,8 +28,9 @@ module.exports = {
       extends: [
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
+        "plugin:aspida/recommended",
       ],
-      plugins: ["@typescript-eslint"],
+      plugins: ["@typescript-eslint", "aspida"],
       rules: {
         "@typescript-eslint/no-explicit-any": "error",
       },
