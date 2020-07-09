@@ -2,16 +2,23 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Link from "next/link";
+import Head from "next/head";
 import PropTypes from "prop-types";
 import Container from "react-bootstrap/Container";
 
 type Props = {
+  title: string;
   children?: React.ReactNode;
 };
 
 const MainLayout: React.FunctionComponent<Props> = (props) => {
   return (
     <div>
+      <Head>
+        <title>
+          {props.title ? props.title + " - " : ""}AtCoder Editorials
+        </title>
+      </Head>
       <header>
         <Navbar variant="dark" bg="dark" className="shadow">
           <Link href="/" passHref>
@@ -35,6 +42,7 @@ const MainLayout: React.FunctionComponent<Props> = (props) => {
 };
 
 MainLayout.propTypes = {
+  title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
 
