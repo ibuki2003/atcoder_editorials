@@ -2929,10 +2929,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-aspida@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-aspida/-/eslint-plugin-aspida-0.0.1.tgz#b0cacce7f889b25776dfc7aa99192c7e160a880d"
-  integrity sha512-4YMm8du8sAyR/hszrOMXDmFMwnMnuKrXeIFnxDC0LKgXHUv914iCNTyDxxOqvd3qXmUyRMPqV8DUuBWdE60RHg==
+eslint-plugin-aspida@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-aspida/-/eslint-plugin-aspida-0.0.2.tgz#0db3f195cfeee6becc81c7d2fd419140cf97a9c7"
+  integrity sha512-HiWnxCwgAwnUb1oXnFMdIM77Ym+I5v4t6nWMGdzaJE03j6A1NdkB6c3m/5vRH9gs2XHYTrNEGrwAWuivQbP+SA==
   dependencies:
     "@types/eslint" "^7.2.0"
     "@types/node" "^14.0.14"
@@ -2945,6 +2945,11 @@ eslint-plugin-prettier@^3.1.4:
   integrity sha512-jZDa8z76klRqo+TdGDTFJSavwbnWK2ZpqGKNZ+VvweMW516pDUMmQ2koXvxEE4JhzNvTv+radye/bWGBmA6jmg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-react-hooks@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.0.6.tgz#4027ae451b5cd219928edd0ff9eab54a8ea82901"
+  integrity sha512-RDrsUR/BjwCECcWS+5bc7mWiU/M1IOizKt40Zuei5mn0Eydubiooh87aSCiZ/BGMSUF7P8AqyMEqQL0RsAihmw==
 
 eslint-plugin-react@^7.20.0:
   version "7.20.0"
