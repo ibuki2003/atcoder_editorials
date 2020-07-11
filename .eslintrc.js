@@ -38,6 +38,10 @@ module.exports = {
       plugins: ["@typescript-eslint", "aspida"],
       rules: {
         "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          { ignoreRestSiblings: true },
+        ],
       },
     },
   ],
