@@ -24,6 +24,7 @@ const conf: Knex.Config = {
     tableName: "knex_migrations",
     extension: "ts",
   },
+  useNullAsDefault: true,
 };
 
 module.exports = conf;
